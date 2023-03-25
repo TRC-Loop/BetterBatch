@@ -1,0 +1,9 @@
+^ This is a comment, it is ignored by the Interpreter
+var name Max; echo $name; ^ defines the variable name wich can be used by $name
+echo The name is $name;
+waitS 3; ^ Waits 3 seconds,
+waitMS 1000; ^ Waits 1000 Milliseconds
+cls; ^ clears the console (on windows)
+epy import random;
+epy print(str(random.randint(0, 10)));
+echo finished;
