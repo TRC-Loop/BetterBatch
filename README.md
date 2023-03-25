@@ -13,11 +13,11 @@ echo The name is $name;
 #waitS 3; ^ Waits 3 seconds,
 #waitMS 1000; ^ Waits 1000 Milliseconds
 cls; ^ clears the console (on windows)
-#epy import random;
-#epy print(str(random.randint(0, 10)));
 echo finished;
 ```
 execute this by typing `py bbatch.py test.bbatch` into the console.
 A full Documentation will be available soon.
 # Notice
 Feel free to use this as base of you Interpreter or make this better but remember to put a Copyright and Credit notice publically, not only in the source code.
+# Where to use BetterBatch
+BetterBatch is usable for Advanced Batch and Shell scripts. To get deep into the OS.
